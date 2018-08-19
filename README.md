@@ -1,4 +1,6 @@
 # 搭建简单服务器
+
+```
 var http = require('http');//加载http服务器的模块
 var fs = require('fs');//加载fs模块用于读写文件 
 
@@ -21,3 +23,4 @@ http.Server(function(req,res){
     }
 }).listen(8080)
 console.log('visit http://localhost:8080')
+```
